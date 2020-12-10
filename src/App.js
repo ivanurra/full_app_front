@@ -17,7 +17,7 @@ class App extends React.Component {
 	state = {
 		isLogged: {},
 		newUser: { username: '', password: '' },
-    loggingUser: { username: '', password: '' },
+    	loggingUser: { username: '', password: '' },
 	};
 
 	service = new UserService();

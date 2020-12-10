@@ -9,8 +9,6 @@ class UserService {
       baseURL: "http://localhost:3000",
       withCredentials: true
     });
-
-
     this.service = service;
   }
 
