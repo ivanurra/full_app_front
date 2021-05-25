@@ -1,6 +1,4 @@
-  
 import axios from "axios";
-
 
 class MangaService {
 
@@ -9,7 +7,6 @@ class MangaService {
       baseURL: "http://localhost:3000",
       withCredentials: true
     });
-
 
     this.service = service;
   }
